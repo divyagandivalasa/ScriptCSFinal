@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ScriptCs</id>
+    <version>1.0.0</version>
+    <title>ScriptCs</title>
+    <authors>Anonymous</authors>
+    <owners>Epam Systems India</owners>
+    <description>Scriptcs</description>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright 2016</copyright>
+  </metadata>
+  <files>
+    <file src="..\bin\debug\scriptcs.exe" target="tools" />
+    <file src="..\bin\debug\scriptcs.exe.config" target="tools" />
+    <file src="..\bin\debug\*.dll" target="tools" />
+    <file src="..\bin\debug\*.pdb" target="tools" />
+    <file src="test.csx" target="tools"/>
+    <file src="..\bin\debug\scriptcs_packages.config" target="tools" />
+  </files>
+</package>
